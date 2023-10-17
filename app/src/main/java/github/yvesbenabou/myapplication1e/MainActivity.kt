@@ -12,6 +12,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import github.yvesbenabou.myapplication1e.ui.theme.MyApplication1ETheme
 
+// COMMENTAIRE CRUCIAL
+
+
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +32,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+//AUTRE MODIF
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
